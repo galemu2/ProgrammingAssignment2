@@ -34,7 +34,6 @@ makeCacheMatrix <- function(x = matrix( )) {
 ## if chached matrix does not have "NA" values, and the matrix has not changed,
 ## then retrive the cached inverse matrix and desplay the matrix.
 
-
 cacheInverse <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
         m <- x$getinverse()
