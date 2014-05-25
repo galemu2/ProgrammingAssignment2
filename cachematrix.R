@@ -1,11 +1,6 @@
 ## this function takes a value and converts it into a 2 x 2 matrix, 
 ## and calculates the inverse using the solve functtion
 
-##Put comments here that give an overall description of what your
-## functions do
-
-## Write a short comment describing this function
-
 ## create a matrix with "NA" value
 ## fill the matrix with desired values (values must fit a 2 X 2 matrix)
 ## clculate the inverse with using the solve function
@@ -27,7 +22,6 @@ makeCacheMatrix <- function(x = matrix( )) {
 }
 
 
-## Write a short comment describing this function
 ## identify the cached matrix with "NA" values.
 ## if cached matrix has "NA" values (starting at the begining), then
 ## calculate the invers of the patrix and cache it.
